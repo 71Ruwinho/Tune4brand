@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tune4Brand - Marque de Vêtements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 1em 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .products img {
+            width: 100%;
+            max-width: 300px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tune4Brand</h1>
+    </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#products">Produits</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about" class="section">
+            <h2>À propos de Tune4Brand</h2>
+            <p>Tune4Brand est une marque de vêtements tendance qui s'inspire de l'esthétique urbaine et moderne, similaire à celle de Corteiz. Notre mission est de fournir des vêtements stylés et confortables pour les jeunes adultes qui veulent exprimer leur personnalité à travers la mode.</p>
+        </section>
+        <section id="products" class="section">
+            <h2>Nos Produits</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="https://via.placeholder.com/300" alt="Produit 1">
+                    <p>Produit 1</p>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300" alt="Produit 2">
+                    <p>Produit 2</p>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300" alt="Produit 3">
+                    <p>Produit 3</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Pour toute question ou demande de collaboration, veuillez nous contacter à <a href="mailto:contact@tune4brand.com">contact@tune4brand.com</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tune4Brand. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
